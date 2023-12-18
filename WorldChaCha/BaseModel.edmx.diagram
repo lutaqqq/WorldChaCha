@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b168b640489f4d3eb28f035de5724f43" Name="Diagram1">
+        <EntityTypeShape EntityType="WorldChaChaModel.Agent" Width="1.5" PointX="5.75" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="WorldChaChaModel.Employee" Width="1.5" PointX="0.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="WorldChaChaModel.HistoryImplementations" Width="1.5" PointX="8" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="WorldChaChaModel.Material" Width="1.5" PointX="0.75" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="WorldChaChaModel.NecessaryMaterials" Width="1.5" PointX="12.5" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="WorldChaChaModel.PointSale" Width="1.5" PointX="8" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WorldChaChaModel.PossibleSuppliers" Width="1.5" PointX="3" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="WorldChaChaModel.Production" Width="1.5" PointX="10.25" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="WorldChaChaModel.Products" Width="1.5" PointX="8" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="WorldChaChaModel.ProductSales" Width="1.5" PointX="10.25" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="WorldChaChaModel.Provider" Width="1.5" PointX="0.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="WorldChaChaModel.Supplies" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WorldChaChaModel.Users" Width="1.5" PointX="2.75" PointY="7" IsExpanded="true" />
+        <AssociationConnector Association="WorldChaChaModel.FK_ИсторияРеализациий_Агент" ManuallyRouted="false" />
+        <AssociationConnector Association="WorldChaChaModel.FK_ТочкаПродаж_Агент" ManuallyRouted="false" />
+        <AssociationConnector Association="WorldChaChaModel.FK_Поставки_Сотрудник" ManuallyRouted="false" />
+        <AssociationConnector Association="WorldChaChaModel.FK_ПродажиПродукции_ИсторияРеализациий" ManuallyRouted="false" />
+        <AssociationConnector Association="WorldChaChaModel.FK_ВозможныеПоставщики_Материал" ManuallyRouted="false" />
+        <AssociationConnector Association="WorldChaChaModel.FK_НеобходимыеМатериалы_Материал" ManuallyRouted="false" />
+        <AssociationConnector Association="WorldChaChaModel.FK_НеобходимыеМатериалы_Производство" ManuallyRouted="false" />
+        <AssociationConnector Association="WorldChaChaModel.FK_ВозможныеПоставщики_Поставщик" ManuallyRouted="false" />
+        <AssociationConnector Association="WorldChaChaModel.FK_Производство_Продкуция1" ManuallyRouted="false" />
+        <AssociationConnector Association="WorldChaChaModel.FK_ПродажиПродукции_Продкуция" ManuallyRouted="false" />
+        <AssociationConnector Association="WorldChaChaModel.FK_Поставки_Поставщик" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
